@@ -19,7 +19,6 @@ body {
   -webkit-text-size-adjust: none;
   background-color: #eee;
   overflow: auto;
-  padding-top: 5px;
   @media screen and (max-width: 1024px) {
     padding-top: 0;
   }
@@ -67,8 +66,7 @@ a {
 .content {
   position: relative;
   width: 1024px;
-  margin: 50px auto;
-  @include border-radius(5px);
+  margin: 0 auto;
   background-color: #fff;
   overflow: hidden;
   @media screen and (max-width: 1024px) {
