@@ -12,7 +12,7 @@ $font-family: 'Helvetica Neue', Helvetica, Arial, "Microsoft YaHei", sans-serif;
 
 body {
   color: #333;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   font-family: $font-family;
   -webkit-font-smoothing: antialiased;
@@ -53,7 +53,7 @@ a {
   left: 50%;
   color: #bbb;
   margin-left: -500px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: right;
   @media screen and (max-width: 1024px) {
     display: none;
@@ -127,7 +127,7 @@ a {
       small {
         font-weight: 400;
         letter-spacing: 0;
-        font-size: 24px;
+        font-size: 26px;
         padding-left: 10px;
         @media screen and (max-width: 720px) {
           display: block;
